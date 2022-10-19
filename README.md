@@ -1,1 +1,1 @@
-# Stock Screener/Backtester
+# Stock Screener-Backtester
