@@ -1,8 +1,18 @@
 # Stock Screener-Backtester
 
-Stock Screener/Backtester allows users to create their stock screener with over 50 different fundamental analysis screening criteria. User can also backtest their stock screener to see performance and compare it with the market index. 
+Stock Screener/Backtester is a Python tool that allows users to create their own stock screener with over 50 different fundamental analysis screening criteria. The tool provides users with the ability to backtest their stock screener's performance and compare it with the market index. The tool is built using Tiingo stock data and allows users to screen and backtest NYSE/NASDAQ stocks, including delisted stocks.
 
-This tool is built using Tiingo stock data. In order to fully use the data, the user needs to pay for the power plan and 3+ years of fundamental stock data. However, Dow30 Stocks can be used for free. 
+## Features
+
+- **Customizable stock screener**: Create a custom stock screener by selecting from over 50 fundamental analysis screening criteria, including market capitalization, PER, Piotroski F-score, and more.
+
+- **Efficient batched database structure**: The tool uses a batched database structure, reducing screening time from the original simple read and compare method to 1/10 times.
+
+- **Backtesting**: Backtest your stock screener's performance on more than 3+ years of historical data (500Mb+) on NYSE/NASDAQ, including delisted stocks.
+
+- **User-friendly GUI**: The tool includes a screener window and a backtesting window in a user-friendly GUI, making it easy to use for investors of all experience levels.
+
+## Images
 
 **Screener**
 ![2](https://user-images.githubusercontent.com/44548828/202115523-65c8268d-4642-476b-b56b-d3db59f1d1d3.gif)
